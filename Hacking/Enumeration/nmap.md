@@ -1,12 +1,12 @@
 
 ## Paramètres communs
 
-`-Pn` : Ignore le host discovery (ping initial)
-`-A` : Aggressive scan : équivalent de `-sC -sV -O --traceroute`
-`-oN` : output to file
-`-T<0-5>` : Timing allant de 0 à 5. 
-	0 = très lent mais discret. (paranoid)
-	5 = très rapide mais très bruyant (insane)
+- `-Pn` : Ignore le host discovery (ping initial)
+- `-A` : Aggressive scan : équivalent de `-sC -sV -O --traceroute`
+- `-oN` : output to file
+- `-T<0-5>` : Timing allant de 0 à 5. 
+	- 0 = très lent mais discret. (paranoid)
+	- 5 = très rapide mais très bruyant (insane)
 
 ## Workflow classique :
 #### Scan rapide :
