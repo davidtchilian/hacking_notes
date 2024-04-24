@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking/Enumeration/nmap.md",
+                "file": "Hacking/Ressources/XSS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cdbec741219ca941",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hacking/Ressources/File Upload.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 232.5
   },
   "right": {
     "id": "85f0c891ebddc38a",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hacking/Enumeration/nmap.md",
+                "file": "Hacking/Ressources/File Upload.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hacking/Enumeration/nmap.md",
+                "file": "Hacking/Ressources/File Upload.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hacking/Enumeration/nmap.md"
+                "file": "Hacking/Ressources/File Upload.md"
               }
             }
           }
@@ -146,18 +159,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "06099dc0e2f1a74b",
+  "active": "cdbec741219ca941",
   "lastOpenFiles": [
-    "Hacking/Active Directory/Hosting Rogue LDAP server/Hosting Rogue LDAP server.md",
-    "Hacking/DDOS/Little Python script.md",
-    "Hacking/Enumeration/nmap.md",
-    "Hacking/Enumeration/ffuf.md",
-    "Hacking/Linux/Privilege Escalation.md",
+    "Hacking/PhysicalPentest/Gadjets.md",
+    "Hacking/Ressources/File Upload.md",
+    "Hacking/Ressources/XSS.md",
+    "README.md",
     "General tips.md",
-    "Hacking/Windows/Privilege Escalation.md",
-    "Hacking/Active Directory/Basics.md",
+    "Hacking/Random commands.md",
+    "Hacking/DDOS/Little Python script.md",
+    "Hacking/Linux/Privilege Escalation.md",
     "Hacking/Linux/Pivoting.md",
     "Hacking/Linux/Stabilize Shell.md",
+    "Hacking/Enumeration/nmap.md",
+    "Hacking/Active Directory/Hosting Rogue LDAP server/Hosting Rogue LDAP server.md",
+    "Hacking/Enumeration/ffuf.md",
+    "Hacking/Windows/Privilege Escalation.md",
+    "Hacking/Active Directory/Basics.md",
     "Hacking/Enumeration"
   ]
 }
