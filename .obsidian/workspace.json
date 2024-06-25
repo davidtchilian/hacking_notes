@@ -4,47 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "b97364cd5c09123d",
+        "id": "49e1622ad7c9d2cb",
         "type": "tabs",
         "children": [
           {
-            "id": "ccff844752f38131",
+            "id": "49aa6b71eb3dcb3b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking/Windows/Commands.md",
+                "file": "Hacking/Misc.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "26d41128b5245cfb",
+            "id": "66eb30a3bb4e59d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking/Active Directory/PowerView.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "58610e9e7c8ef777",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hacking/Todo/NetExec.md",
+                "file": "Hacking/Random Exploits/Zero Logon.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hacking/Todo/NetExec.md",
+                "file": "Hacking/Random Exploits/Zero Logon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hacking/Todo/NetExec.md",
+                "file": "Hacking/Random Exploits/Zero Logon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hacking/Todo/NetExec.md"
+                "file": "Hacking/Random Exploits/Zero Logon.md"
               }
             }
           }
@@ -171,11 +159,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "58610e9e7c8ef777",
+  "active": "66eb30a3bb4e59d1",
   "lastOpenFiles": [
+    "Hacking/Random Exploits/Injection d'extension SQLite.md",
     "Hacking/Todo/NetExec.md",
-    "Hacking/Todo",
+    "Hacking/SocialEngineering/Tools.md",
+    "Hacking/SQLite/Commandes basiques.md",
+    "Hacking/Random Exploits/Zero Logon.md",
+    "Hacking/Misc.md",
+    "Hacking/Random Exploits",
+    "Hacking/Windows/Commands.md",
     "Hacking/Active Directory/PowerView.md",
+    "Hacking/Todo",
     "Hacking/Active Directory/Basics.md",
     "Hacking/Active Directory/NTLM Password Spray.md",
     "Hacking/Books/Books.md",
@@ -191,14 +186,9 @@
     "Hacking/OPSec/Anonymous from start.md",
     "Hacking/OSINT/Tools.md",
     "Hacking/PhysicalPentest/Gadjets.md",
-    "Hacking/SQLite/Injection d'extension SQLite.md",
-    "Hacking/SQLite/Commandes basiques.md",
-    "Hacking/SocialEngineering/Tools.md",
-    "Hacking/Misc.md",
     "Hacking/Ressources/XSS.md",
     "Hacking/Ressources/File Upload.md",
     "Hacking/Formations/Formations.md",
-    "Hacking/Linux/Stabilize Shell.md",
     "Hacking/Enumeration"
   ]
 }
