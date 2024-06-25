@@ -4,35 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "03e9b53a221fb42a",
+        "id": "b97364cd5c09123d",
         "type": "tabs",
         "children": [
           {
-            "id": "06099dc0e2f1a74b",
+            "id": "ccff844752f38131",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking/Ressources/XSS.md",
+                "file": "Hacking/Windows/Commands.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "cdbec741219ca941",
+            "id": "26d41128b5245cfb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking/Ressources/File Upload.md",
+                "file": "Hacking/Active Directory/PowerView.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "58610e9e7c8ef777",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hacking/Todo/NetExec.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hacking/Ressources/File Upload.md",
+                "file": "Hacking/Todo/NetExec.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hacking/Ressources/File Upload.md",
+                "file": "Hacking/Todo/NetExec.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hacking/Ressources/File Upload.md"
+                "file": "Hacking/Todo/NetExec.md"
               }
             }
           }
@@ -159,23 +171,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cdbec741219ca941",
+  "active": "58610e9e7c8ef777",
   "lastOpenFiles": [
-    "Hacking/PhysicalPentest/Gadjets.md",
-    "Hacking/Ressources/File Upload.md",
-    "Hacking/Ressources/XSS.md",
-    "README.md",
-    "General tips.md",
-    "Hacking/Random commands.md",
-    "Hacking/DDOS/Little Python script.md",
-    "Hacking/Linux/Privilege Escalation.md",
-    "Hacking/Linux/Pivoting.md",
-    "Hacking/Linux/Stabilize Shell.md",
-    "Hacking/Enumeration/nmap.md",
-    "Hacking/Active Directory/Hosting Rogue LDAP server/Hosting Rogue LDAP server.md",
-    "Hacking/Enumeration/ffuf.md",
-    "Hacking/Windows/Privilege Escalation.md",
+    "Hacking/Todo/NetExec.md",
+    "Hacking/Todo",
+    "Hacking/Active Directory/PowerView.md",
     "Hacking/Active Directory/Basics.md",
+    "Hacking/Active Directory/NTLM Password Spray.md",
+    "Hacking/Books/Books.md",
+    "Hacking/DDOS/Little Python script.md",
+    "Hacking/Enumeration/SNMP.md",
+    "Hacking/Enumeration/nmap.md",
+    "Hacking/Enumeration/ffuf.md",
+    "Hacking/Notes/Notes.md",
+    "Hacking/Notes/CheatSheets.md",
+    "Hacking/OPSec/Wifi.md",
+    "General tips.md",
+    "Hacking/OPSec/Emails.md",
+    "Hacking/OPSec/Anonymous from start.md",
+    "Hacking/OSINT/Tools.md",
+    "Hacking/PhysicalPentest/Gadjets.md",
+    "Hacking/SQLite/Injection d'extension SQLite.md",
+    "Hacking/SQLite/Commandes basiques.md",
+    "Hacking/SocialEngineering/Tools.md",
+    "Hacking/Misc.md",
+    "Hacking/Ressources/XSS.md",
+    "Hacking/Ressources/File Upload.md",
+    "Hacking/Formations/Formations.md",
+    "Hacking/Linux/Stabilize Shell.md",
     "Hacking/Enumeration"
   ]
 }
