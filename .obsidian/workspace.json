@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "49aa6b71eb3dcb3b",
+            "id": "85abfa095fb1b58a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "66eb30a3bb4e59d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hacking/Random Exploits/Zero Logon.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hacking/Random Exploits/Zero Logon.md",
+                "file": "Hacking/Misc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hacking/Random Exploits/Zero Logon.md",
+                "file": "Hacking/Misc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hacking/Random Exploits/Zero Logon.md"
+                "file": "Hacking/Misc.md"
               }
             }
           }
@@ -159,13 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "66eb30a3bb4e59d1",
+  "active": "85abfa095fb1b58a",
   "lastOpenFiles": [
+    "Hacking/Enumeration/SMB.md",
+    "Hacking/Random Exploits/Zero Logon.md",
+    "Hacking/Enumeration/SNMP.md",
+    "Hacking/Enumeration/ffuf.md",
+    "Hacking/Enumeration/nmap.md",
     "Hacking/Random Exploits/Injection d'extension SQLite.md",
     "Hacking/Todo/NetExec.md",
     "Hacking/SocialEngineering/Tools.md",
     "Hacking/SQLite/Commandes basiques.md",
-    "Hacking/Random Exploits/Zero Logon.md",
     "Hacking/Misc.md",
     "Hacking/Random Exploits",
     "Hacking/Windows/Commands.md",
@@ -175,9 +166,6 @@
     "Hacking/Active Directory/NTLM Password Spray.md",
     "Hacking/Books/Books.md",
     "Hacking/DDOS/Little Python script.md",
-    "Hacking/Enumeration/SNMP.md",
-    "Hacking/Enumeration/nmap.md",
-    "Hacking/Enumeration/ffuf.md",
     "Hacking/Notes/Notes.md",
     "Hacking/Notes/CheatSheets.md",
     "Hacking/OPSec/Wifi.md",
@@ -188,7 +176,6 @@
     "Hacking/PhysicalPentest/Gadjets.md",
     "Hacking/Ressources/XSS.md",
     "Hacking/Ressources/File Upload.md",
-    "Hacking/Formations/Formations.md",
     "Hacking/Enumeration"
   ]
 }

