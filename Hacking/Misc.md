@@ -37,3 +37,9 @@ pip3 install whatever
 deactivate
 ```
 
+#### Copy whole website
+
+```bash
+wget -mkEpnp <website>
+```
+
