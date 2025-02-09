@@ -23,6 +23,22 @@ Access the hidden service on `127.0.0.1:2222` on the attacker machine
 
 [Chisel Tunneling](http://michalszalkowski.com/security/pivoting-tunneling-port-forwarding/chisel-socks5-tunneling-windows-rev/)
 
+Installation :
+```bash
+rm -rf /opt/tools/chisel/
+mkdir -p /opt/tools/chisel/
+
+wget https://github.com/jpillora/chisel/releases/download/v1.7.4/chisel_1.7.4_linux_amd64.gz -O /opt/tools/chisel/chisel.gz
+gzip -d /opt/tools/chisel/chisel.gz
+mv /opt/tools/chisel/chisel /opt/tools/chisel/chisel.elf
+chmod +x /opt/tools/chisel/chisel.elf
+
+wget https://github.com/jpillora/chisel/releases/download/v1.7.4/chisel_1.7.4_windows_amd64.gz -O /opt/tools/chisel/chisel.gz
+gzip -d /opt/tools/chisel/chisel.gz
+mv /opt/tools/chisel/chisel /opt/tools/chisel/chisel.exe
+chmod +x /opt/tools/chisel/chisel.exe
+```
+
 On host :
 ```
 ./chisel.elf server -p 8080 --reverse
